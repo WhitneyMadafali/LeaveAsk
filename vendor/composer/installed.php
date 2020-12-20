@@ -1,16 +1,25 @@
 <?php return array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => 'bf76d6bac94a6be5388d2a1ef0630c3f65dd597e',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
   array (
+    'algolia/algoliasearch-client-php' => 
+    array (
+      'pretty_version' => '2.7.2',
+      'version' => '2.7.2.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'a915109c76d5f4af67f10cd21855ea2d4c9aec9f',
+    ),
     'asm89/stack-cors' => 
     array (
       'pretty_version' => 'v2.0.2',
@@ -87,6 +96,15 @@
       array (
       ),
       'reference' => '65b2d8ee1f10915efb3b55597da3404f096acba2',
+    ),
+    'drewm/mailchimp-api' => 
+    array (
+      'pretty_version' => 'v2.5.4',
+      'version' => '2.5.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c6cdfab4ca6ddbc3b260913470bd0a4a5cb84c7a',
     ),
     'egulias/email-validator' => 
     array (
@@ -417,12 +435,21 @@
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => 'bf76d6bac94a6be5388d2a1ef0630c3f65dd597e',
+    ),
+    'laravel/scout' => 
+    array (
+      'pretty_version' => 'v8.4.0',
+      'version' => '8.4.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1241ecf4e876b8fcb8311160b471e6915bc1ab66',
     ),
     'laravel/tinker' => 
     array (
@@ -902,6 +929,15 @@
       array (
       ),
       'reference' => '99732be0ddb3361e16ad77b68ba41efc8e979019',
+    ),
+    'spatie/laravel-newsletter' => 
+    array (
+      'pretty_version' => '4.9.0',
+      'version' => '4.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '659893001e73b5ea5b9b6dd73a06a8574ea735a7',
     ),
     'swiftmailer/swiftmailer' => 
     array (

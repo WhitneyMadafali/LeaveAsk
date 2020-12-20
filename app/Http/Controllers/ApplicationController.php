@@ -8,6 +8,7 @@ use App\Application;
 use Illuminate\Http\Request;
 use App\Http\Requests\StoreApplicationRequest;
 
+
 class ApplicationController extends Controller
 {
   public function index()
@@ -102,7 +103,7 @@ class ApplicationController extends Controller
         $application->update();
         return redirect()->route('applications.index')->with('success', 'application updated successfully');
     }
-
+   
     /**
      * Remove the specified resource from storage.
      *
@@ -114,4 +115,5 @@ class ApplicationController extends Controller
         $application->delete();
         return redirect()->route('applications.index')->with('success', 'application deleted successfully');
     }
+    
 }

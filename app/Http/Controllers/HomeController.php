@@ -17,6 +17,11 @@ class HomeController extends Controller
     {
         $this->middleware('auth');
     }
+    public function search($searchKey)
+    {
+        $users = User::search($searchKey)->get();
+        return view('search',compact('users'));
+    }
 
     /**
      * Show the application dashboard.
